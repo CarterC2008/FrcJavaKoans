@@ -26,7 +26,21 @@ public class AboutMethods {
      * 
      */
     public static void computeAgeIn5And10And20YearsConsole() {
-
+        System.out.println("What is your age?");
+        String age = readLine();
+        int age2 = Integer.parseInt(age);
+        int age3 = age2+5;
+        System.out.println("In 5 years from now, you will be "+age3+".");
+        System.out.println("What is your age?");
+         age = readLine();
+         age2 = Integer.parseInt(age);
+         age3 = age2+10;
+        System.out.println("In 10 years from now, you will be "+age3+".");
+        System.out.println("What is your age?");
+        age = readLine();
+        age2 = Integer.parseInt(age);
+        age3 = age2+20;
+        System.out.println("In 20 years from now, you will be "+age3+".");
     }
 
     /**
@@ -116,7 +130,21 @@ public class AboutMethods {
      * 
      */
     public static void computeAgeIn5And10And20YearsConsoleWithMethod() {
-
+        System.out.println("What is your age?");
+        String age = readLine();
+        int age2 = Integer.parseInt(age);
+        int age3 = age2+5;
+        System.out.println("In 5 years from now, you will be "+age3+".");
+        System.out.println("What is your age?");
+         age = readLine();
+         age2 = Integer.parseInt(age);
+         age3 = age2+10;
+        System.out.println("In 10 years from now, you will be "+age3+".");
+        System.out.println("What is your age?");
+        age = readLine();
+        age2 = Integer.parseInt(age);
+        age3 = age2+20;
+        System.out.println("In 20 years from now, you will be "+age3+".");  
     }
 
     /**
@@ -176,7 +204,7 @@ public class AboutMethods {
      * 
      */
     public static int square(int number) {
-        return 0;
+        return number*number;
     }    
 
     
@@ -197,7 +225,9 @@ public class AboutMethods {
      * opposite(-5) should return 5
      * 
      */
-
+    public static int opposite(int number) {
+        return -number;
+    }
 
     /**
      * # Helping a farmer
@@ -212,4 +242,7 @@ public class AboutMethods {
      * legs(2, 3, 4) should return 32
      * 
      */
+    public static int legs (int number) {
+        
+    }
 }
